@@ -60,17 +60,23 @@ int main() {
     printf("开始读取16进制数据 (按Ctrl+C停止)...\n");
     
     // 读取数据
-    unsigned char buffer[256];
+    unsigned char buffer[512];
     while (1) {
         int n = read(serial_fd, buffer, sizeof(buffer));
-        if (n > 0) {
-            printf("接收 %d 字节: ", n);
-            for (int i = 0; i < n; i++) {
-                printf("%02X ", buffer[i]);  // 以16进制格式打印
+        if (n <= 26)
+        {
+            puts("");
+        }
+            
+
+        if (n > 0)
+        {
+            for (int i = 0 ; i < n; i ++) {
+                printf("%02x ", buffer[i]);
             }
-            printf("\n");
-        } else if (n < 0) {
-            perror("读取错误");
+        }
+        else {
+            printf("error");
             break;
         }
     }
