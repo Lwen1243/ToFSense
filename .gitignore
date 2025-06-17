@@ -1,0 +1,7 @@
+.vscode
+<<<<<<< HEAD
+*.exe
+=======
+*.exe
+build
+>>>>>>> update
