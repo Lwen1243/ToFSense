@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9b705162ebba7b40ae702c428dcd065629969d93
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -85,6 +88,7 @@ int main() {
     close(serial_fd);
     return 0;
 }
+<<<<<<< HEAD
 =======
 #include "get_data.h"
 #include <stdio.h>
@@ -386,3 +390,5 @@ void Avoid_Danger(void)
 }
 
 >>>>>>> update
+=======
+>>>>>>> 9b705162ebba7b40ae702c428dcd065629969d93

@@ -1,7 +1,11 @@
 .vscode
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.exe
 =======
 *.exe
 build
 >>>>>>> update
+=======
+*.exe
+>>>>>>> 9b705162ebba7b40ae702c428dcd065629969d93
